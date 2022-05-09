@@ -1,14 +1,13 @@
 //
-//  SignUpUserAndLogin_veiw.swift
+//  TestingViewForTechnician.swift
 //  Servizi
 //
-//  Created by khaled on 2/28/22.
+//  Created by khaled on 3/21/22.
 //
 
 import SwiftUI
 
-struct testingVeiw: View
-{
+struct TestingViewForTechnician: View {
     @State private var isActive: Bool = false
     @State private var isActive1: Bool = false
     @State var MaxCircleHight : CGFloat = 0
@@ -75,7 +74,7 @@ struct testingVeiw: View
                     
                     VStack{
                         
-                        Text("Sing Up")
+                        Text("Sign Up")
                             .font(.system(size: 20))
                             .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                             .foregroundColor(index == 1 ? .blue : .gray)
@@ -108,11 +107,11 @@ struct testingVeiw: View
             HStack{
                 
                 if index == 0 {
-                    login()
+                    TechnicainLogin()
                 }
                 else
                 {
-                    signUp()
+                    TechnicianSignUp()
                 }
                             }
             Spacer()
@@ -135,25 +134,10 @@ struct testingVeiw: View
            
  
 }
-    
 }
-struct testingVeiw_Previews: PreviewProvider {
+
+struct TestingViewForTechnician_Previews: PreviewProvider {
     static var previews: some View {
-        testingVeiw()
-            .preferredColorScheme(.light)
+        TestingViewForTechnician()
     }
 }
-
-extension View{
-    func gentRect()->CGRect{
-        
-        return UIScreen.main.bounds
-
-    }
-    // getting safa area
-    func gentSafeArea()->UIEdgeInsets{
-        return UIApplication.shared.windows.first?.safeAreaInsets
-?? UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
-    }
-}
-

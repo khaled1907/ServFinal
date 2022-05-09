@@ -1,13 +1,14 @@
 //
-//  login.swift
+//  TechnicainLogin.swift
 //  Servizi
 //
-//  Created by khaled on 2/28/22.
+//  Created by khaled on 3/21/22.
 //
 
 import SwiftUI
 
-struct login: View {
+struct TechnicainLogin: View {
+ 
     @State var email = ""
     @State var password = ""
     var body: some View {
@@ -31,7 +32,7 @@ struct login: View {
            .foregroundColor(.gray)
                 TextField("servizi22@yahoo.com", text:$email)
                     .font(.system(size: 20, weight: .semibold))
-                  //  .foregroundColor(Color(.black))
+           
                     .padding(.top,5)
                 
                 
@@ -88,11 +89,9 @@ struct login: View {
     
 }
 }
-struct login_Previews: PreviewProvider {
+
+struct TechnicainLogin_Previews: PreviewProvider {
     static var previews: some View {
-        login()
-            
-            
-            
+        TechnicainLogin()
     }
 }

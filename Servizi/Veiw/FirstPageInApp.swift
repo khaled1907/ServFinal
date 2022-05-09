@@ -49,7 +49,7 @@ NavigationView{
             
                     
                     
-                    NavigationLink( destination: testingVeiw(),
+                    NavigationLink( destination: TestingViewForTechnician(),
                       isActive: self.$isActive1)
                     {
                       Text("")
@@ -91,9 +91,11 @@ NavigationView{
     .frame(width: geeetRect().width)
  .frame(height: geeetRect().height )
        
-  
+    
+    .navigationBarHidden(true)
 }
-
+.navigationBarBackButtonHidden(true)
+.navigationBarHidden(true)
 .frame(height: geeetRect().height - geeetRect().height / 25)
 .frame(width: geeetRect().width)
 .accentColor(.black)
