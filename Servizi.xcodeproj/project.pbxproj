@@ -41,6 +41,7 @@
 		EE82A63127E919480083D79D /* TestingViewForTechnician.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE82A63027E919480083D79D /* TestingViewForTechnician.swift */; };
 		EE8B7EEC27FC7874005FCB67 /* UserSharedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B7EEB27FC7874005FCB67 /* UserSharedViewModel.swift */; };
 		EE8BB325280C46160051C205 /* BookingVm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8BB324280C46160051C205 /* BookingVm.swift */; };
+		EE90BFAB282AD30700D5BB55 /* SignUpForUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE90BFAA282AD30700D5BB55 /* SignUpForUser.swift */; };
 		EE9181FB281CA2B800F2D44B /*  TechProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9181FA281CA2B700F2D44B /*  TechProfileViewModel.swift */; };
 		EE9181FD281CBDEE00F2D44B /* ClickTheButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9181FC281CBDEE00F2D44B /* ClickTheButton.swift */; };
 		EE990C5A27F5C24D00B7E917 /* UserSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE990C5927F5C24D00B7E917 /* UserSignUp.swift */; };
@@ -105,6 +106,7 @@
 		EE82A63027E919480083D79D /* TestingViewForTechnician.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingViewForTechnician.swift; sourceTree = "<group>"; };
 		EE8B7EEB27FC7874005FCB67 /* UserSharedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSharedViewModel.swift; sourceTree = "<group>"; };
 		EE8BB324280C46160051C205 /* BookingVm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingVm.swift; sourceTree = "<group>"; };
+		EE90BFAA282AD30700D5BB55 /* SignUpForUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpForUser.swift; sourceTree = "<group>"; };
 		EE9181FA281CA2B700F2D44B /*  TechProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " TechProfileViewModel.swift"; sourceTree = "<group>"; };
 		EE9181FC281CBDEE00F2D44B /* ClickTheButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickTheButton.swift; sourceTree = "<group>"; };
 		EE990C5927F5C24D00B7E917 /* UserSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserSignUp.swift; path = ../../../../../Downloads/UserSignUp.swift; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 				EE16A0AC282307AF00820F89 /* SettingUser.swift */,
 				EE16A0AE28230CBC00820F89 /* sheetview.swift */,
 				EE16A0B028230E3700820F89 /* ReatingVeiw.swift */,
+				EE90BFAA282AD30700D5BB55 /* SignUpForUser.swift */,
 			);
 			path = " Userview";
 			sourceTree = "<group>";
@@ -471,6 +474,7 @@
 				EE9FC78928119E960005C44B /* viewToMakeAppoint.swift in Sources */,
 				EE8BB325280C46160051C205 /* BookingVm.swift in Sources */,
 				EEAE4F63280E14C500C8BA81 /* ViewTechProfile.swift in Sources */,
+				EE90BFAB282AD30700D5BB55 /* SignUpForUser.swift in Sources */,
 				EE22D31427DBDCBF0029AA85 /* UserSignUpVm.swift in Sources */,
 				EEEE996F280D0E0400DEEB59 /* CancelAppVm.swift in Sources */,
 				29C48E9327D4F53E00E75D87 /* UserSignUpInfo.swift in Sources */,
