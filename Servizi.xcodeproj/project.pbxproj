@@ -43,6 +43,7 @@
 		EE8BB325280C46160051C205 /* BookingVm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8BB324280C46160051C205 /* BookingVm.swift */; };
 		EE90BFAB282AD30700D5BB55 /* SignUpForUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE90BFAA282AD30700D5BB55 /* SignUpForUser.swift */; };
 		EE90BFAD282AD47800D5BB55 /* TechSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE90BFAC282AD47800D5BB55 /* TechSignUp.swift */; };
+		EE90BFAF282ADA4C00D5BB55 /* TechnicianLogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE90BFAE282ADA4C00D5BB55 /* TechnicianLogInView.swift */; };
 		EE9181FB281CA2B800F2D44B /*  TechProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9181FA281CA2B700F2D44B /*  TechProfileViewModel.swift */; };
 		EE9181FD281CBDEE00F2D44B /* ClickTheButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9181FC281CBDEE00F2D44B /* ClickTheButton.swift */; };
 		EE990C5A27F5C24D00B7E917 /* UserSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE990C5927F5C24D00B7E917 /* UserSignUp.swift */; };
@@ -109,6 +110,7 @@
 		EE8BB324280C46160051C205 /* BookingVm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingVm.swift; sourceTree = "<group>"; };
 		EE90BFAA282AD30700D5BB55 /* SignUpForUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpForUser.swift; sourceTree = "<group>"; };
 		EE90BFAC282AD47800D5BB55 /* TechSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechSignUp.swift; sourceTree = "<group>"; };
+		EE90BFAE282ADA4C00D5BB55 /* TechnicianLogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnicianLogInView.swift; sourceTree = "<group>"; };
 		EE9181FA281CA2B700F2D44B /*  TechProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " TechProfileViewModel.swift"; sourceTree = "<group>"; };
 		EE9181FC281CBDEE00F2D44B /* ClickTheButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickTheButton.swift; sourceTree = "<group>"; };
 		EE990C5927F5C24D00B7E917 /* UserSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserSignUp.swift; path = ../../../../../Downloads/UserSignUp.swift; sourceTree = "<group>"; };
@@ -297,6 +299,7 @@
 				EE82A63027E919480083D79D /* TestingViewForTechnician.swift */,
 				EE9181FC281CBDEE00F2D44B /* ClickTheButton.swift */,
 				EE90BFAC282AD47800D5BB55 /* TechSignUp.swift */,
+				EE90BFAE282ADA4C00D5BB55 /* TechnicianLogInView.swift */,
 			);
 			path = TechnicianView;
 			sourceTree = "<group>";
@@ -495,6 +498,7 @@
 				EE338EDF28299875004811E7 /* EditingTechnicainProfile.swift in Sources */,
 				29A814E027CD4CBF00701405 /*  home.swift in Sources */,
 				EE82A63127E919480083D79D /* TestingViewForTechnician.swift in Sources */,
+				EE90BFAF282ADA4C00D5BB55 /* TechnicianLogInView.swift in Sources */,
 				EE9FFB1C27EBB4DA00FFB723 /* TechValidation.swift in Sources */,
 				EE9181FD281CBDEE00F2D44B /* ClickTheButton.swift in Sources */,
 				EE9FFB2427ECEF5300FFB723 /* testingVeiw.swift in Sources */,
